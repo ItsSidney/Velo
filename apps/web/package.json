@@ -1,0 +1,44 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "@velo/core": "workspace:*",
+    "@velo/db": "workspace:*",
+    "autoprefixer": "^10.4.0",
+    "clsx": "^2.0.0",
+    "framer-motion": "^11.0.0",
+    "katex": "^0.19.1",
+    "lucide-react": "^0.400.0",
+    "next": "16.4.3",
+    "postcss": "^8.4.0",
+    "prism-react-renderer": "^2.4.1",
+    "react": "18.3.0",
+    "react-dom": "18.3.0",
+    "react-markdown": "^9.0.0",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss": "^3.4.0",
+    "zod": "^3.23.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "16.4.3",
+    "typescript": "^5.6.0"
+  }
+}
