@@ -26,7 +26,7 @@ Fast, opinionated AI chat web app with streaming, many LLM providers, rich link 
 
 ```bash
 # Clone the repo
-git clone https://github.com/eldricksidney/velo.git
+git clone https://github.com/ItsSidney/Velo.git
 cd velo
 
 # Install dependencies
